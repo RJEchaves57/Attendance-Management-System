@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Attendance</title>
+  <link rel="stylesheet" href="../assets/styles/style.css">
+</head>
+<body class="centered">
+  <div class="container">
+    <a href="admin-login.html" class="admin-login">Login as Admin</a>
+
+    <div class="attendance-box">
+      <h2>Student Attendance</h2>
+      <p>Enter your student ID to mark your attendance</p>
+
+      <form action="attendance-success.html" method="get">
+        <label for="student-id" class="label">Student ID</label>
+        <div class="input-group">
+          <input type="text" id="student-id" name="student-id" placeholder="20240938" required/>
+        </div>
+
+        <button type="submit" class="btn present">Mark as Present</button>
+        <a href="./student.html" class="btn reset">Reset</a>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

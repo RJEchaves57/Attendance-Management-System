@@ -1,0 +1,108 @@
+/* =========================================
+   NAVIGATION BAR
+========================================= */
+.dashboard-nav {
+  background-color: #4c4573;
+  padding: 10px 0;
+  border-bottom: 1px solid #5f5789;
+}
+
+.btn-student,
+.btn-logout {
+  background-color: #8d86d6;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 6px 16px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-student:hover,
+.btn-logout:hover {
+  background-color: #a39be8;
+}
+
+/* =========================================
+   MAIN SECTION
+========================================= */
+.dashboard-container {
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: calc(100vh - 60px);
+}
+
+/* =========================================
+   ATTENDANCE CARD
+========================================= */
+.attendance-card {
+  background-color: #fff;
+  border-radius: 12px;
+  border: 1px solid #dcd6f5;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  width: 100%;
+}
+
+/* =========================================
+   FILTERS
+========================================= */
+.filters .form-control,
+.filters .form-select {
+  background-color: #6b639a;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  padding: 10px 12px;
+}
+
+.filters .form-control:focus,
+.filters .form-select:focus {
+  box-shadow: 0 0 0 2px #b0a9eb;
+}
+
+.btn-refresh {
+  background-color: #8d86d6;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 0;
+  transition: 0.3s;
+}
+
+.btn-refresh:hover {
+  background-color: #a39be8;
+}
+
+/* =========================================
+   TABLE STYLING
+========================================= */
+.table thead th {
+  color: #a59fe0;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-bottom: 1px solid #e6e3fa;
+}
+
+.table tbody td {
+  color: #2e2a46;
+  font-weight: 500;
+  padding: 14px 10px;
+  border-bottom: 1px solid #f1effd;
+}
+
+/* =========================================
+   STATUS LABEL
+========================================= */
+.status-label {
+  background-color: #d3ccff;
+  color: #3a348b;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 4px 12px;
+  font-size: 14px;
+}

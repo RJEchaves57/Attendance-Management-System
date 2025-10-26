@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Attendance</title>
+  <link rel="stylesheet" href="../assets/styles/student.html/style.css"/>
+</head>
+<body>
+  <div class="container">
+    <a href="../pages/admin-login.html" class="admin-login">View Attendance</a>
+
+    <div class="attendance-box">
+      <h2>Student Attendance</h2>
+      <p>Enter your student ID to mark your attendance</p>
+
+      <form action="../pages/already-marked.html" method="get">
+        <label for="student-id" class="label">Student ID</label>
+        <div class="input-group">
+          <input type="text" name="student-id" placeholder="20240938" required />
+        </div>
+
+        <button type="submit" class="btn present">Mark as Present</button>
+        <a href="../pages/student.html" class="btn reset">Reset</a>
+        <button class="btn already-marked">You already marked attendance today.</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
